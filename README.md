@@ -2,7 +2,7 @@ cloud_computing
 # Cloud Computing
 
 ## What is Cloud Computing
-Cloud computing is the on demand delivery of IT resources over the internet with pay as you go pricing. Rather than buying, owning and maintaining physical data centers adn servers, you can access technology services, such as computing power, storage, and databses on an as needed basis from a cloud provider such as AWS.
+Cloud computing is the on demand delivery of IT resources over the internet with pay as you go pricing. Rather than buying, owning and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databses on an as needed basis from a cloud provider such as AWS.
 
 **Benefits**
 - Agility
