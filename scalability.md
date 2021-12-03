@@ -29,21 +29,21 @@ Last but not least: the best solution is definitely to create several instances 
 # Auto Scaling
 - Go to Auto Scaling --> Auto Scaling Groups on the EC2 sidenav
 - Click "Create an Auto Scaling Group"
-- Give a sensible name (NOTE that you shouldn't use underscores here) e.g. eng99-joseph-app-asg
+- Give a sensible name (NOTE that you shouldn't use underscores here) e.g. eng99-delwar-app-asg
 - Select launch template
 - Change version to Latest to receive updates
 - Choose the default VPC
 - Select the availability zones, in this case default 1a default 1b and default 1c
 - Attach a new load balancer
 - Ensure Application Load Balancer is selected
-- Name the load balancer something sensible e.g. eng99-joseph-app-asg-ALB
+- Name the load balancer something sensible e.g. eng99-delwar-app-asg-ALB
 - Change load balancer scheme to Internet-facing
-- Create a new target group with e.g. eng99-joseph-app-asg-tg
+- Create a new target group with e.g. eng99-delwar-app-asg-tg
 - Enable group metrics collection with CloudWatch
 - Change the desired capacity, minimum capacity and maximum capacity to 2,2,3 respectively (for this example)
 - Select Target tracking scaling policy for the scaling policies. Ensure that "disable scale in to create only a scale-out policy" is NOT selected
 - Set the metric to type etc to whatever
 - Do NOT selected enable instance scale-in protection
 - Add whatever notifications
-- Attach name tag e.g. {Name: eng99_joseph_ASG}
+- Attach name tag e.g. {Name: eng99_delwar_ASG}
 - Review and Create
